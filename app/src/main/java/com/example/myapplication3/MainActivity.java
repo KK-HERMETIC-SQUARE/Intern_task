@@ -12,11 +12,11 @@ import com.github.clans.fab.FloatingActionButton;
 public class MainActivity extends AppCompatActivity {
     FloatingActionButton fabFacebook,fabPizza;
 
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        getSupportActionBar().setTitle("RecipeMaster");
 
         fabFacebook = findViewById(R.id.fabFacebook);
         fabPizza = findViewById(R.id.fabPizza);
@@ -24,7 +24,7 @@ public class MainActivity extends AppCompatActivity {
         fabFacebook.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-
+                openLogin();
             }
         });
 
@@ -33,12 +33,16 @@ public class MainActivity extends AppCompatActivity {
         fabPizza.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                openPrzepis();
+                openRecipe();
             }
         });
     }
-    public void openPrzepis(){
+    public void openRecipe(){
         Intent intent = new Intent(this,Main2Activity.class);
+        startActivity(intent);
+    }
+    public void openLogin(){
+        Intent intent = new Intent(this,Main3Activity.class);
         startActivity(intent);
     }
 }

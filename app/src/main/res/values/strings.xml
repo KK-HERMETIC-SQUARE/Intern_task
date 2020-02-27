@@ -1,4 +1,12 @@
 <resources>
+    <string name="facebook_app_id">149773742742913</string>
+    <string name="fb_login_protocol_scheme">fb149773742742913</string>
+
     <string name="app_name">My Application3</string>
+
     <string name="pizza_jest_potraw_kuchni_w_oskiej_obecnie_szeroko_rozpowszechnion_na_ca_ym_wiecie_i_zaliczan_do_da_typu_fast_food_w_wersji_podstawowej_jest_to_p_aski_placek_z_wytrawnego_ciasta_makaronowego_znacznie_p_niej_zacz_to_tak_e_u_ywa_ciasta_dro_d_owego_focaccia_pizza_pieczona_jest_w_bardzo_mocno_nagrzanym_piecu">Pizza jest potrawą kuchni włoskiej, obecnie szeroko rozpowszechnioną na całym świecie i zaliczaną do dań typu fast food. W wersji podstawowej jest to płaski placek z wytrawnego ciasta makaronowego znacznie później zaczęto także używać ciasta drożdżowego (focaccia).Pizza pieczona jest w bardzo mocno nagrzanym piecu.</string>
+    <string name="pizza">Pizza:</string>
+    <string name="masterrecipe">MasterRecipe</string>
+    <string name="log_in_first">Log in first!</string>
+    <string name="recipemaster">RecipeMaster</string>
 </resources>
